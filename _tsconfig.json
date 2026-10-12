@@ -1,10 +1,10 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "../config/_tsconfig.json",
-  "compilerOptions": {
-    "module": "Preserve",
-    "moduleResolution": "bundler",
-    "types": ["node"],
-    "lib": ["ESNext"]
-  }
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "../config/_tsconfig.json",
+	"compilerOptions": {
+		"module": "Preserve",
+		"moduleResolution": "bundler",
+		"types": ["node"],
+		"lib": ["ESNext"]
+	}
 }
