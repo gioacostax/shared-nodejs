@@ -1,32 +1,31 @@
 {
-	"$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
-	"extends": ["../config/_biome.json"],
-	"assist": {
-		"actions": {
-			"source": {
-				"organizeImports": {
-					"level": "on",
-					"options": {
-						"groups": [
-							{ "type": true, "source": [":NODE:"] },
-							{ "type": false, "source": [":NODE:"] },
-							":BLANK_LINE:",
-							{ "type": true, "source": [":PACKAGE_WITH_PROTOCOL:"] },
-							{ "type": false, "source": [":PACKAGE_WITH_PROTOCOL:"] },
-							":BLANK_LINE:",
-							{ "type": true, "source": [":PACKAGE:"] },
-							{ "type": false, "source": [":PACKAGE:"] },
-							":BLANK_LINE:",
-							{ "type": true, "source": [":ALIAS:"] },
-							{ "type": false, "source": [":ALIAS:"] },
-							":BLANK_LINE:",
-							{ "type": true, "source": [":PATH:"] },
-							{ "type": false, "source": [":PATH:"] }
-						],
-						"identifierOrder": "natural"
-					}
-				}
-			}
-		}
-	}
+  "$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": {
+          "level": "on",
+          "options": {
+            "groups": [
+              { "type": true, "source": [":NODE:"] },
+              { "type": false, "source": [":NODE:"] },
+              ":BLANK_LINE:",
+              { "type": true, "source": [":PACKAGE_WITH_PROTOCOL:"] },
+              { "type": false, "source": [":PACKAGE_WITH_PROTOCOL:"] },
+              ":BLANK_LINE:",
+              { "type": true, "source": [":PACKAGE:"] },
+              { "type": false, "source": [":PACKAGE:"] },
+              ":BLANK_LINE:",
+              { "type": true, "source": [":ALIAS:"] },
+              { "type": false, "source": [":ALIAS:"] },
+              ":BLANK_LINE:",
+              { "type": true, "source": [":PATH:"] },
+              { "type": false, "source": [":PATH:"] }
+            ],
+            "identifierOrder": "natural"
+          }
+        }
+      }
+    }
+  }
 }
